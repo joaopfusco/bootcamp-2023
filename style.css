@@ -1,0 +1,178 @@
+body {
+    width: 100%;
+    margin: auto;
+    background-color: #03051f;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .logoCanto {
+    margin: 10px;
+  }
+  
+  .logoVestibular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #imgVestibular {
+    width: 70%;
+    height: 50%;
+  }
+  
+  .titulo {
+    font-size: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .cursos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .cursos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  
+  p { /* textos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+  }
+  
+  ul { /* listas */
+    font-weight: normal;
+    margin: auto;
+    width: 440px;
+    height: 150px;
+  }
+
+  .botaoCurso {
+    color: #fff;
+    font-weight: bolder;
+    font-size: x-large;
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px #888888;
+  }
+
+  .ADS {
+    margin: 0 auto;
+    height: 300px;
+    background: white;
+    border-radius: 20px;
+    color: #141414;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #botaoADS {
+    background-color: #466cc2;
+  }
+
+  #botaoADS:hover {
+    background-color: #5e80d4;
+    cursor: pointer;
+  }
+  
+  .BCC {
+    margin: 0 auto;
+    height: 300px;
+    background: white;
+    border-radius: 20px;
+    color: #141414;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #botaoCC {
+    background-color: #361168;
+  }
+
+  #botaoCC:hover {
+    background-color: #4d1e7a;
+    cursor: pointer;
+  }
+
+  .linkInscricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  
+  #botaoInscricao {
+    background-color: #003264;
+    color: #fff;
+    width: 80%;
+    height: 70px;
+    font-size: x-large;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px #02031a;
+  }
+
+  #botaoInscricao:hover {
+    background-color: #00428E;
+    cursor: pointer;
+  }
+
+  button:active {
+    box-shadow: none;
+  }
+  
+  .noticias {
+    background-color: #494f8980;
+    width: 80%;
+    height: 270px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .imagemNoticia {
+    width: 25%;
+    height: 80%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #3D4275;
+  }
+
+  .imagemNoticia:hover {
+    width: 25.5%;
+    height: 81%;
+  }
+  
+  .dadosUnimar {
+    background-color: #003264;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-top: 15px;
+  }
+
+  #Unimar {
+    width: 300px;
+  }
